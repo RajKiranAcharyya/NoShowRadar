@@ -1,0 +1,4 @@
+accuracy,precision,recall,f1,true_negative,false_positive,false_negative,true_positive,model
+0.7981,0.0,0.0,0.0,17642,0,4462,0,baseline
+0.6627,0.3133,0.5628,0.4025,12138,5504,1951,2511,logistic_regression
+0.5796,0.303,0.8328,0.4444,9095,8547,746,3716,random_forest
