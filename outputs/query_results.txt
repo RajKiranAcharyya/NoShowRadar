@@ -1,0 +1,39 @@
+Query: no_show_by_age_group.sql
+appointment_group  total_appointments  no_show_rate_pct
+             0-12               21035              20.5
+            13-18                7830              26.1
+            19-35               24135              23.8
+            36-50               22099              20.3
+            51-65               22122              16.5
+              66+               13295              15.5
+
+Query: no_show_by_gender.sql
+appointment_group  total_appointments  no_show_rate_pct
+                F               71831              20.3
+                M               38685              20.0
+
+Query: no_show_by_sms_received.sql
+appointment_group  total_appointments  no_show_rate_pct
+     SMS received               35481              27.6
+  No SMS received               75035              16.7
+
+Query: no_show_by_wait_band.sql
+appointment_group  total_appointments  no_show_rate_pct
+         Same day               38561               4.6
+         1-7 days               32183              24.1
+        8-30 days               29395              31.7
+         31+ days               10377              33.0
+
+Query: no_show_by_weekday.sql
+appointment_group  total_appointments  no_show_rate_pct
+           Monday               22711              20.6
+          Tuesday               25638              20.1
+        Wednesday               25866              19.7
+         Thursday               17244              19.3
+           Friday               19018              21.2
+         Saturday                  39              23.1
+
+Query: overall_no_show_rate.sql
+appointment_group  total_appointments  no_show_rate_pct
+          Overall              110516              20.2
+
