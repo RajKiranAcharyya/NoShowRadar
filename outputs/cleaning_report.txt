@@ -1,0 +1,6 @@
+Initial rows: 110527
+Rows removed (invalid age < 0 or > 110): 6
+Rows removed (appointment day earlier than scheduled day): 5
+Rows removed (duplicate appointment id): 0
+Rows removed (missing values): 0
+Final rows: 110516
