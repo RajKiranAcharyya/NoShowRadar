@@ -87,6 +87,16 @@ All numbers below come from the checked-in cleaning, SQL, and model output files
 - The 13–18 age group had the highest observed age-band rate (**26.1%**); the 66+ group had the lowest (**15.5%**).
 - Recorded SMS recipients had a **27.6%** no-show rate, compared with **16.7%** among non-recipients. This is an association, not evidence that reminders increase no-shows: reminders may be targeted to appointments already considered higher risk.
 
+### Generated charts
+
+| No-show rate by waiting time | No-show rate by age group |
+| --- | --- |
+| ![No-show rate by waiting time](charts/wait_band.png) | ![No-show rate by age group](charts/age_group.png) |
+
+| No-show rate by weekday | No-show rate by SMS status |
+| --- | --- |
+| ![No-show rate by weekday](charts/weekday.png) | ![No-show rate by SMS status](charts/sms_received.png) |
+
 ### Model comparison
 
 The positive class is a missed appointment (`no_show = 1`).
