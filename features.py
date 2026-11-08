@@ -13,3 +13,4 @@ def add_features(data):
     wait_labels = ["Same day", "1-7 days", "8-30 days", "31+ days"]
     data["wait_band"] = pd.cut(data["wait_days"], bins=wait_bins, labels=wait_labels)
     return data
+

@@ -1,1 +1,2 @@
 SELECT wait_band AS appointment_group, COUNT(*) AS total_appointments, ROUND(100.0 * AVG(no_show), 1) AS no_show_rate_pct FROM appointments GROUP BY wait_band ORDER BY CASE wait_band WHEN 'Same day' THEN 1 WHEN '1-7 days' THEN 2 WHEN '8-30 days' THEN 3 WHEN '31+ days' THEN 4 ELSE 5 END;
+

@@ -79,3 +79,4 @@ In the Random Forest model, feature importance is dominated by `wait_days` (78.4
 ## What I learned and next steps
 
 This project highlights why classification accuracy is dangerously deceptive on imbalanced datasets: a dummy model achieves ~80% accuracy by predicting that everyone attends, but catches zero no-shows. Tuning for F1 and recall allows clinical staff to flag 83% of prospective no-shows. Next steps include testing probability calibration (Platt scaling / isotonic regression), collecting longitudinal attendance history per patient, and testing cost-sensitive decision thresholds.
+

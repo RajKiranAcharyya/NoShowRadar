@@ -191,3 +191,4 @@ Make a commit after each stage with a clear message such as add data cleaning wi
 - streamlit run app.py shows the charts, the model table and a working prediction form
 - No code file, including SQL, contains a comment or docstring
 - README.md and WALKTHROUGH.md exist and contain no invented numbers
+

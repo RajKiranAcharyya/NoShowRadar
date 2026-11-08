@@ -1,1 +1,2 @@
 SELECT CASE sms_received WHEN 1 THEN 'SMS received' WHEN 0 THEN 'No SMS received' ELSE 'Unknown' END AS appointment_group, COUNT(*) AS total_appointments, ROUND(100.0 * AVG(no_show), 1) AS no_show_rate_pct FROM appointments GROUP BY sms_received ORDER BY sms_received DESC;
+
